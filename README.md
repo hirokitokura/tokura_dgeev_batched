@@ -130,5 +130,8 @@ __Arguments__
 * Input matrices must be stored in host memory.
 * Elements of each matrix are stored by column major order.
 
+# References 
+CUDA Toolkit Documentation, http://docs.nvidia.com/cuda/#axzz4BiKiOanB
+
 
 
