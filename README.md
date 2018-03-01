@@ -18,6 +18,7 @@ MIT
   * Autotuning program is compiled and executed
   * Create libtokura_dgeev_batched.so
   * Test program is compiled and executed
+  * Test program computes eigenvalues of 500000 randomly generated matrices.
 # Compile an example for windows
 * 'mkdir C:\tokura_dgeev_batched`
 * `git clone https://github.com/hirokitokura/tokura_dgeev_batched.git C:\tokura_dgeev_batched`
@@ -34,3 +35,5 @@ Also, you can compile and execute a sample program
 * Set `tokura_dgeev_batched_SAMPLE` as Startup Project
   *Before built, copy `tokura_dgeev_batched.lib` to `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched_SAMPLE`
   * A sample program computes eigenvalues of 500000 randomly generated matrices.
+
+# Functions
