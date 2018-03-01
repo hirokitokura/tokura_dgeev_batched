@@ -78,30 +78,44 @@ __Error value__
 This function allocate `numberofelements*sizeof(double)` bytes for each A[i].
 Use `tokura_free()` to free this memory.
 
+__Arguments__
 [out] `A` On putput, set to the pointer A[i] that was allocated.
 
 [in] `numberofelements` The number of elements of matrix.
 
 [in] `batchCount` The number of matrices.
+
+
 ---
 `void tokura_free(double** A)`
 
 This function free memory which is allocated by `tokura_malloc()'.
 
+__Arguments__
+
 [in] `A` Pointer to free
+
+
 ---
 `void tokura_flags_malloc(char** flags, int batchCount)`
 
 This function allocate 'sizeof(char)*batchCount' bytes for array flags.
 Use `tokura_flags_free()` to free this memory.
 
+__Arguments__
 
 [out] `flags` On putput, set to the pointer flags that wa allocated.
 
 [in] `batchCount` The number of matrices.
+
+
 ---
 `void tokura_flags_free(char** flags, int batchCount)`
 
 This function free memory which is allocated by `tokura_flags_malloc()`.
 
+__Arguments__
+
 [in] `flags` Pointer to free
+
+
