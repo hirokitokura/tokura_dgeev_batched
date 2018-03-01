@@ -11,10 +11,10 @@ more details -> http://www.ijnc.org/index.php/ijnc/article/view/152
 MIT
 
 # Compile an example for Linux
-* 'mkdir $HOME/tokura_dgeev_batched'
-* git clone https://github.com/hirokitokura/tokura_dgeev_batched.git tokura_dgeev_batched
-* cd tokura_dgeev_batched/linux
-* ./compile.sh
+* `mkdir $HOME/tokura_dgeev_batched`
+* `git clone https://github.com/hirokitokura/tokura_dgeev_batched.git tokura_dgeev_batched`
+* `cd tokura_dgeev_batched/linux`
+* `./compile.sh`
   * Autotuning program is compiled and executed
   * Create libtokura_dgeev_batched.so
   * Test program is compiled and executed
