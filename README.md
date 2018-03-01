@@ -51,6 +51,9 @@ This function computes the eigenvalues for N-by-N real non-symmetric matrices.
 No eigenvectors are computed.
   
 __Arguments__
-[in] n INTEGER, The order of the matrix A[i]. 0<=N<=32
+
+* [in] n INTEGER, The order of the matrix A[i]. 0<=N<=32
+* [in] A DOUBLE**, Array of pointers to double array with each array A[i] of which is N×N.
+ * A[i] should be allocated by tokura_malloc. 
 
 
