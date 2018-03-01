@@ -68,5 +68,5 @@ __Arguments__
   
 __Error value__
 
-return value == 0 -> All arguments are not illegal value.
-return value == -i -> i-th argument is illegal value.
+`return value == 0 -> All arguments are not illegal value.`
+`return value == -i -> i-th argument is illegal value.`
