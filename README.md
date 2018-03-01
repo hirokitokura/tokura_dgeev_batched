@@ -37,3 +37,20 @@ Also, you can compile and execute a sample program
   * A sample program computes eigenvalues of 500000 randomly generated matrices.
 
 # Functions
+`int tokura_dgeev_batched
+ (
+  int n,
+  double** A,
+  double** wr, 
+  double** wi,
+  int batchCount,
+  char* flags
+  );`
+  
+This function computes the eigenvalues for N-by-N real non-symmetric matrices.
+No eigenvectors are computed.
+  
+Arguments
+  
+
+
