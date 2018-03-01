@@ -69,4 +69,9 @@ __Arguments__
 __Error value__
 
 `return value == 0 -> All arguments are not illegal value.`
+
 `return value == -i -> i-th argument is illegal value.`
+
+`void tokura_malloc(double **A, int numberofelements, int  batchCount);`
+This function allocate `numberofelements*sizeof(double)` for each A[i].
+Use `void tokura_free();` to free this memory.
