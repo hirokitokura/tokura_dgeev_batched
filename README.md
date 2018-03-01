@@ -78,6 +78,9 @@ __Error value__
 This function allocate `numberofelements*sizeof(double)` bytes for each A[i].
 Use `tokura_free()` to free this memory.
 
+[out] A On putput, set to the pointer A[i] that wa allocated.
+[in] numberofelements 
+
 ---
 `void tokura_free(double** A)`
 
