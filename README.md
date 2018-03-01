@@ -72,6 +72,25 @@ __Error value__
 
 `return value == -i -> i-th argument is illegal value.`
 
+---
 `void tokura_malloc(double **A, int numberofelements, int  batchCount);`
-This function allocate `numberofelements*sizeof(double)` for each A[i].
-Use `void tokura_free();` to free this memory.
+
+This function allocate `numberofelements*sizeof(double)` bytes for each A[i].
+Use `tokura_free();` to free this memory.
+
+---
+`void tokura_free(double** A);`
+
+This function free memory which is allocated by `tokura_malloc()'.
+
+---
+`void tokura_flags_malloc(char** flags, int batchCount);`
+
+This function allocate 'sizeof(char)*batchCount' bytes for array flags.
+Use `tokura_flags_free();` to free this memory.
+
+---
+`void tokura_flags_malloc(char** flags, int batchCount);`
+
+This function free memory which is allocated by `tokura_flags_malloc()'.
+
