@@ -25,12 +25,12 @@ MIT
 * Open `tokura_dgeev_batched.sln`
 * Set `tokura_dgeev_batched_AUTOTUNE` as Startup Project
 * Build and execute
- * `tokura_dgeev_batched_tuned_thread_parameters.h` is generated in `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched`
+  * `tokura_dgeev_batched_tuned_thread_parameters.h` is generated in `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched`
 * Set `tokura_dgeev_batched` as Startup Project
 * Build
- * `tokura_dgeev_batched.dll` and `tokura_dgeev_batched.lib` are generated in `C:\tokura_dgeev_batched\windows\x64\Release`
+  * `tokura_dgeev_batched.dll` and `tokura_dgeev_batched.lib` are generated in `C:\tokura_dgeev_batched\windows\x64\Release`
  
 * Also, you can compile and execute a sample program
 * Set `tokura_dgeev_batched_SAMPLE` as Startup Project
- *Before built, copy `tokura_dgeev_batched.lib` to `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched_SAMPLE`
- * A sample program computes eigenvalues of 500000 randomly generated matrices.
+  *Before built, copy `tokura_dgeev_batched.lib` to `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched_SAMPLE`
+  * A sample program computes eigenvalues of 500000 randomly generated matrices.
