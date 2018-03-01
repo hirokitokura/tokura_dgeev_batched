@@ -124,7 +124,7 @@ __Arguments__
 
 
 * Computer Capability >= 3.0 (CUDA 9.x no longer supports previous hardware).
-* Inputs must be REAL square matrices.
+* Inputs must be double precision floating point number REAL square matrices.
 * The matrix size n is 1 <= n <= 32.
 * Balancing is not performed.
 * Input matrices must be stored in host memory.
