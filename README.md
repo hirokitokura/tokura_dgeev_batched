@@ -52,19 +52,19 @@ No eigenvectors are computed.
   
 __Arguments__
 
-* [in] n INTEGER, The order of the matrix A[i]. 0<=N<=32
-* [in] A DOUBLE**, Array of pointers to double array with each matrix A[i] of which size is N×N.
- * A[i] should be allocated by tokura_malloc. 
-* [out] wr DOUBLE**, Array of pointers to double array with each array wr[i] of which size is N.
-  * wr[i] is stored real part of eigenvalues of matrix A[i].
-  * wr[i] should be allocated by tokura_malloc. 
-* [out] wi DOUBLE**, Array of pointers to double array with each array wi[i] of which size is N.
-  * wi[i] is stored imaginary part of eigenvalues of matrix A[i].
-  * wi[i] should be allocated by tokura_malloc. 
-* [in] batchCount INTEGER, The number of pointers contained in A array
-* [out] flags CHAR*, Array of flag.
-  * flag[i] == 0 -> This function successes to computes all the eigenvalues of A[i].
-  * flag[i] == 1 -> This function falis to computes all the eigenvalues of A[i].
+* [in] `n` INTEGER, The order of the matrix A[i]. 0<=N<=32
+* [in] `A` DOUBLE**, Array of pointers to double array with each matrix A[i] of which size is N×N.
+ * `A[i]` should be allocated by tokura_malloc. 
+* [out] `wr` DOUBLE**, Array of pointers to double array with each array wr[i] of which size is N.
+  * `wr[i]` is stored real part of eigenvalues of matrix A[i].
+  * `wr[i]` should be allocated by tokura_malloc. 
+* [out] `wi` DOUBLE**, Array of pointers to double array with each array wi[i] of which size is N.
+  * `wi[i]` is stored imaginary part of eigenvalues of matrix A[i].
+  * `wi[i]` should be allocated by tokura_malloc. 
+* [in] `batchCount` INTEGER, The number of pointers contained in A array
+* [out] `flags` CHAR*, Array of flag.
+  * `flag[i] == 0` -> This function successes to computes all the eigenvalues of A[i].
+  * `flag[i] == 1` -> This function falis to computes all the eigenvalues of A[i].
   
 __Error value__
 
@@ -78,22 +78,30 @@ __Error value__
 This function allocate `numberofelements*sizeof(double)` bytes for each A[i].
 Use `tokura_free()` to free this memory.
 
-[out] A On putput, set to the pointer A[i] that wa allocated.
-[in] numberofelements 
+[out] `A` On putput, set to the pointer A[i] that was allocated.
 
+[in] `numberofelements` The number of elements of matrix.
+
+[in] `batchCount` The number of matrices.
 ---
 `void tokura_free(double** A)`
 
 This function free memory which is allocated by `tokura_malloc()'.
 
+[in] `A` Pointer to free
 ---
 `void tokura_flags_malloc(char** flags, int batchCount)`
 
 This function allocate 'sizeof(char)*batchCount' bytes for array flags.
 Use `tokura_flags_free()` to free this memory.
 
+
+[out] `flags` On putput, set to the pointer flags that wa allocated.
+
+[in] `batchCount` The number of matrices.
 ---
-`void tokura_flags_malloc(char** flags, int batchCount)`
+`void tokura_flags_free(char** flags, int batchCount)`
 
 This function free memory which is allocated by `tokura_flags_malloc()`.
 
+[in] `flags` Pointer to free
