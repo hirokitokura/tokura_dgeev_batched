@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tokura_dgeev_batched", "tokura_dgeev_batched\tokura_dgeev_batched.vcxproj", "{C1E2D157-DAE1-4EC1-8790-BD91667079D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tokura_dgeev_batched_AUTOTUNE", "tokura_dgeev_batched_AUTOTUNE\tokura_dgeev_batched_AUTOTUNE.vcxproj", "{68219962-3CC4-423F-B2C4-2545F27753F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tokura_dgeev_batched_SAMPLE", "tokura_dgeev_batched_SAMPLE\tokura_dgeev_batched_SAMPLE.vcxproj", "{FAE66EFE-3D18-4AFA-ADEF-B98132B29A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E2D157-DAE1-4EC1-8790-BD91667079D9}.Debug|x64.ActiveCfg = Debug|x64
+		{C1E2D157-DAE1-4EC1-8790-BD91667079D9}.Debug|x64.Build.0 = Debug|x64
+		{C1E2D157-DAE1-4EC1-8790-BD91667079D9}.Release|x64.ActiveCfg = Release|x64
+		{C1E2D157-DAE1-4EC1-8790-BD91667079D9}.Release|x64.Build.0 = Release|x64
+		{68219962-3CC4-423F-B2C4-2545F27753F1}.Debug|x64.ActiveCfg = Debug|x64
+		{68219962-3CC4-423F-B2C4-2545F27753F1}.Debug|x64.Build.0 = Debug|x64
+		{68219962-3CC4-423F-B2C4-2545F27753F1}.Release|x64.ActiveCfg = Release|x64
+		{68219962-3CC4-423F-B2C4-2545F27753F1}.Release|x64.Build.0 = Release|x64
+		{FAE66EFE-3D18-4AFA-ADEF-B98132B29A88}.Debug|x64.ActiveCfg = Debug|x64
+		{FAE66EFE-3D18-4AFA-ADEF-B98132B29A88}.Debug|x64.Build.0 = Debug|x64
+		{FAE66EFE-3D18-4AFA-ADEF-B98132B29A88}.Release|x64.ActiveCfg = Release|x64
+		{FAE66EFE-3D18-4AFA-ADEF-B98132B29A88}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FBE8639-7E40-4D41-9E28-EB2DB838C4EC}
+	EndGlobalSection
+EndGlobal
