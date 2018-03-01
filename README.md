@@ -11,7 +11,7 @@ more details -> http://www.ijnc.org/index.php/ijnc/article/view/152
 MIT
 
 # Compile an example for Linux
-* mkdir $HOME/tokura_dgeev_batched
+* 'mkdir $HOME/tokura_dgeev_batched'
 * git clone https://github.com/hirokitokura/tokura_dgeev_batched.git tokura_dgeev_batched
 * cd tokura_dgeev_batched/linux
 * ./compile.sh
