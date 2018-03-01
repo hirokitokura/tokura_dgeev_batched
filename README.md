@@ -53,7 +53,20 @@ No eigenvectors are computed.
 __Arguments__
 
 * [in] n INTEGER, The order of the matrix A[i]. 0<=N<=32
-* [in] A DOUBLE**, Array of pointers to double array with each array A[i] of which is N×N.
+* [in] A DOUBLE**, Array of pointers to double array with each matrix A[i] of which size is N×N.
  * A[i] should be allocated by tokura_malloc. 
+* [out] wr DOUBLE**, Array of pointers to double array with each array wr[i] of which size is N.
+  * wr[i] is stored real part of eigenvalues of matrix A[i].
+  * wr[i] should be allocated by tokura_malloc. 
+* [out] wi DOUBLE**, Array of pointers to double array with each array wi[i] of which size is N.
+  * wi[i] is stored imaginary part of eigenvalues of matrix A[i].
+  * wi[i] should be allocated by tokura_malloc. 
+* [in] batchCount INTEGER, The number of pointers contained in A array
+* [out] flags CHAR*, Array of flag.
+  * flag[i] == 0 -> This function successes to computes all the eigenvalues of A[i].
+  * flag[i] == 1 -> This function falis to computes all the eigenvalues of A[i].
+  
+__Error value__
 
-
+return value == 0 -> All arguments are not illegal value.
+return value == -i -> i-th argument is illegal value.
