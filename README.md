@@ -14,4 +14,8 @@ MIT
 * mkdir $HOME/tokura_dgeev_batched
 * git clone https://github.com/hirokitokura/tokura_dgeev_batched.git tokura_dgeev_batched
 * cd tokura_dgeev_batched/linux
-: ./compile.sh
+* ./compile.sh
+  * Autotuning program is compiled and executed
+  * Create libtokura_dgeev_batched.so
+  * Test program is compiled and executed
+# Compile an example for windows
