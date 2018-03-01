@@ -103,7 +103,7 @@ Use `tokura_flags_free()` to free this memory.
 
 __Arguments__
 
-[out] `flags` On putput, set to the pointer flags that wa allocated.
+[out] `flags` On putput, set to the pointer flags that we allocated.
 
 [in] `batchCount` The number of matrices.
 
