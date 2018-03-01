@@ -119,3 +119,12 @@ __Arguments__
 [in] `flags` Pointer to free
 
 
+
+# Limitation
+
+* Computer Capability >= 3.0 (CUDA 9.x no longer supports previous hardware).
+* The matrix size n is 0 <= n <= 32.
+* Balancing is not performed.
+* Input matrices must be stored in host memory.
+
+
