@@ -50,7 +50,7 @@ Also, you can compile and execute a sample program
 This function computes the eigenvalues for N-by-N real non-symmetric matrices.
 No eigenvectors are computed.
   
-Arguments
-  
+__Arguments__
+[in] n INTEGER, The order of the matrix A[i]. 0<=N<=32
 
 
