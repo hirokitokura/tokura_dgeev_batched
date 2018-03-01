@@ -30,7 +30,7 @@ MIT
 * Build
   * `tokura_dgeev_batched.dll` and `tokura_dgeev_batched.lib` are generated in `C:\tokura_dgeev_batched\windows\x64\Release`
  
-* Also, you can compile and execute a sample program
+Also, you can compile and execute a sample program
 * Set `tokura_dgeev_batched_SAMPLE` as Startup Project
   *Before built, copy `tokura_dgeev_batched.lib` to `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched_SAMPLE`
   * A sample program computes eigenvalues of 500000 randomly generated matrices.
