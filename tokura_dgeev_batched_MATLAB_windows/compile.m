@@ -1,0 +1,1 @@
+ mex -largeArrayDims tokura_dgeev_batched.cpp  -ltokura_dgeev_batched -lcudart -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64"
