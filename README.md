@@ -35,6 +35,16 @@ Also, you can compile and execute a sample program
   * Before built, copy `tokura_dgeev_batched.lib` to `C:\tokura_dgeev_batched\windows\tokura_dgeev_batched_SAMPLE`
   * A sample program computes eigenvalues of 500000 randomly generated matrices.
 
+# Compile an example for MATLAB at Windows systems
+In advance, `tokura_dgeev_batched.dll` and `tokura_dgeev_batched.lib` must be generated.
+Following steps are performed in MATLAB.
+* `cd C:\tokura_dgeev_batched\tokura_dgeev_batched_MATLAB_windows`
+* Execute `compile.m`
+  * `cudart.lib` should be linked.
+  * Confirm your `CUDA_PATH`
+  * `tokura_dgeev_batched.mexw64` will be generated.
+ 
+ 
 # Functions
 `int tokura_dgeev_batched
  (
